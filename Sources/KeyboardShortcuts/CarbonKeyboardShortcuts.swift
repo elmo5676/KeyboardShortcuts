@@ -4,6 +4,7 @@ private func carbonKeyboardShortcutsEventHandler(eventHandlerCall: EventHandlerC
 	CarbonKeyboardShortcuts.handleEvent(event)
 }
 
+
 enum CarbonKeyboardShortcuts {
 	private final class HotKey {
 		let shortcut: KeyboardShortcuts.Shortcut
